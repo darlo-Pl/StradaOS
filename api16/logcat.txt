@@ -1,0 +1,2038 @@
+--------- beginning of /dev/log/main
+D/AndroidRuntime( 1960): 
+D/AndroidRuntime( 1960): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1960): CheckJNI is ON
+D/dalvikvm( 1960): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1960): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1960): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1960): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 1960): Calling main entry com.android.commands.am.Am
+D/PermissionCache( 1137): checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (44 us)
+D/AndroidRuntime( 1960): Shutting down VM
+D/dalvikvm( 1960): GC_CONCURRENT freed 96K, 77% free 473K/2048K, paused 0ms+0ms, total 0ms
+I/AndroidRuntime( 1960): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 1970): Not late-enabling CheckJNI (already on)
+--------- beginning of /dev/log/system
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main u=0} from pid 1960
+W/WindowManager( 1366): Failure taking screenshot for (315x184) to layer 21005
+I/ActivityManager( 1366): Start proc com.stradaos.launcher.debug for activity com.stradaos.launcher.debug/com.stradaos.launcher.Main: pid=1970 uid=10044 gids={3003, 1028, 1015, 3002, 3001}
+E/Trace   ( 1970): error opening trace file: Permission denied (13)
+D/EGL_emulation( 1733): eglMakeCurrent: 0xb919d660: ver 2 0
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 0ms
+I/ActivityThread( 1970): Pub com.stradaos.launcher.debug.apk: com.stradaos.launcher.ApkProvider
+I/dalvikvm( 1970): Could not find method com.stradaos.launcher.Main.checkSelfPermission, referenced from method com.stradaos.launcher.Main.backupRestore
+W/dalvikvm( 1970): VFY: unable to resolve virtual method 2761: Lcom/stradaos/launcher/Main;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 1970): VFY: replacing opcode 0x6e at 0x000c
+I/dalvikvm( 1970): Could not find method com.stradaos.launcher.Main.checkSelfPermission, referenced from method com.stradaos.launcher.Main.backupSave
+W/dalvikvm( 1970): VFY: unable to resolve virtual method 2761: Lcom/stradaos/launcher/Main;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 1970): VFY: replacing opcode 0x6e at 0x000e
+I/dalvikvm( 1970): Could not find method com.stradaos.launcher.Main.checkSelfPermission, referenced from method com.stradaos.launcher.Main.chooseMapToDownload
+W/dalvikvm( 1970): VFY: unable to resolve virtual method 2761: Lcom/stradaos/launcher/Main;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 1970): VFY: replacing opcode 0x6e at 0x0018
+I/dalvikvm( 1970): Could not find method com.stradaos.launcher.Main.checkSelfPermission, referenced from method com.stradaos.launcher.Main.gpsState
+W/dalvikvm( 1970): VFY: unable to resolve virtual method 2761: Lcom/stradaos/launcher/Main;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 1970): VFY: replacing opcode 0x6e at 0x0008
+W/dalvikvm( 1970): Unable to resolve superclass of Lcom/stradaos/launcher/MediaListener; (145)
+W/dalvikvm( 1970): Link of class 'Lcom/stradaos/launcher/MediaListener;' failed
+E/dalvikvm( 1970): Could not find class 'com.stradaos.launcher.MediaListener', referenced from method com.stradaos.launcher.Main.notifAccessAdb
+W/dalvikvm( 1970): VFY: unable to resolve const-class 826 (Lcom/stradaos/launcher/MediaListener;) in Lcom/stradaos/launcher/Main;
+D/dalvikvm( 1970): VFY: replacing opcode 0x1c at 0x0013
+I/dalvikvm( 1970): Could not find method com.stradaos.launcher.Main.checkSelfPermission, referenced from method com.stradaos.launcher.Main.pickMapFile
+W/dalvikvm( 1970): VFY: unable to resolve virtual method 2761: Lcom/stradaos/launcher/Main;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 1970): VFY: replacing opcode 0x6e at 0x0008
+W/dalvikvm( 1970): Unable to resolve superclass of Lcom/stradaos/launcher/MediaListener; (145)
+W/dalvikvm( 1970): Link of class 'Lcom/stradaos/launcher/MediaListener;' failed
+W/dalvikvm( 1970): VFY: unable to resolve static field 1845 (connected) in Lcom/stradaos/launcher/MediaListener;
+D/dalvikvm( 1970): VFY: replacing opcode 0x63 at 0x0129
+W/dalvikvm( 1970): Unable to resolve superclass of Lcom/stradaos/launcher/MediaListener; (145)
+W/dalvikvm( 1970): Link of class 'Lcom/stradaos/launcher/MediaListener;' failed
+W/dalvikvm( 1970): VFY: unable to resolve static field 1845 (connected) in Lcom/stradaos/launcher/MediaListener;
+D/dalvikvm( 1970): VFY: replacing opcode 0x63 at 0x01f8
+D/dalvikvm( 1970): GC_CONCURRENT freed 301K, 7% free 6086K/6535K, paused 1ms+10ms, total 15ms
+W/dalvikvm( 1970): Unable to resolve superclass of Lcom/stradaos/launcher/MediaListener; (145)
+W/dalvikvm( 1970): Link of class 'Lcom/stradaos/launcher/MediaListener;' failed
+W/dalvikvm( 1970): VFY: unable to resolve static field 1845 (connected) in Lcom/stradaos/launcher/MediaListener;
+D/dalvikvm( 1970): VFY: replacing opcode 0x63 at 0x00ad
+D/gralloc_ranchu( 1137): gralloc_alloc: Creating ashmem region of size 2457600
+D/dalvikvm( 1970): GC_CONCURRENT freed 194K, 5% free 6437K/6727K, paused 0ms+0ms, total 5ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 3ms
+I/dalvikvm( 1970): Could not find method android.os.StatFs.getAvailableBytes, referenced from method com.stradaos.launcher.MapDownload.free
+W/dalvikvm( 1970): VFY: unable to resolve virtual method 425: Landroid/os/StatFs;.getAvailableBytes ()J
+D/dalvikvm( 1970): VFY: replacing opcode 0x6e at 0x000f
+D/EGL_emulation( 1733): eglMakeCurrent: 0xb919d660: ver 2 0
+I/dalvikvm( 1970): DexOpt: access denied from Lcom/stradaos/launcher/NotifArt; to field Landroid/app/Notification;.extras
+W/dalvikvm( 1970): VFY: unable to resolve instance field 9
+D/dalvikvm( 1970): VFY: replacing opcode 0x54 at 0x0007
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/PhoneStatusBar( 1468): addNotification score=10
+D/dalvikvm( 1366): GREF has increased to 501
+I/dalvikvm( 1970): Could not find method android.speech.tts.TextToSpeech.speak, referenced from method com.stradaos.launcher.Nav.doSpeak
+W/dalvikvm( 1970): VFY: unable to resolve virtual method 439: Landroid/speech/tts/TextToSpeech;.speak (Ljava/lang/CharSequence;ILandroid/os/Bundle;Ljava/lang/String;)I
+D/dalvikvm( 1970): VFY: replacing opcode 0x6e at 0x0045
+I/dalvikvm( 1970): Could not find method android.content.Context.getExternalFilesDirs, referenced from method com.stradaos.launcher.Backup.appDirs
+W/dalvikvm( 1970): VFY: unable to resolve virtual method 71: Landroid/content/Context;.getExternalFilesDirs (Ljava/lang/String;)[Ljava/io/File;
+D/dalvikvm( 1970): VFY: replacing opcode 0x6e at 0x0008
+D/libEGL  ( 1970): loaded /system/lib/egl/libEGL_emulation.so
+D/libEGL  ( 1970): loaded /system/lib/egl/libGLESv1_CM_emulation.so
+D/libEGL  ( 1970): loaded /system/lib/egl/libGLESv2_emulation.so
+D/        ( 1970): HostConnection::get() New Host Connection established 0xb9126968, tid 1970
+D/EGL_emulation( 1970): eglCreateContext: 0xb9123210: maj 2 min 0 rcv 2
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/OpenGLRenderer( 1970): Enabling debug mode 0
+D/dalvikvm( 1970): GC_CONCURRENT freed 234K, 5% free 6719K/7047K, paused 0ms+0ms, total 2ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 17K, 4% free 7052K/7303K, paused 1ms, total 1ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 177K, 7% free 7194K/7687K, paused 1ms, total 1ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 7.565MB for 471738-byte allocation
+D/dalvikvm( 1970): GC_CONCURRENT freed 0K, 7% free 7654K/8199K, paused 10ms+1ms, total 12ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 224K, 10% free 7430K/8199K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed <1K, 7% free 7661K/8199K, paused 1ms, total 1ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 8.022MB for 471738-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 230K, 10% free 7891K/8711K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_CONCURRENT freed 369K, 7% free 8175K/8711K, paused 0ms+1ms, total 9ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm( 1970): GC_CONCURRENT freed 430K, 7% free 8474K/9031K, paused 1ms+12ms, total 14ms
+D/dalvikvm( 1970): GC_CONCURRENT freed 550K, 7% free 8835K/9479K, paused 1ms+0ms, total 5ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm( 1970): GC_CONCURRENT freed 1210K, 14% free 8552K/9927K, paused 0ms+0ms, total 4ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 147K, 12% free 8814K/9927K, paused 6ms, total 6ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_CONCURRENT freed 106K, 4% free 9560K/9927K, paused 0ms+0ms, total 7ms
+I/ActivityManager( 1366): Displayed com.stradaos.launcher.debug/com.stradaos.launcher.Main: +867ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 578K, 7% free 9952K/10695K, paused 17ms, total 17ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 338K, 11% free 10180K/11335K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 384K, 9% free 10696K/11655K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 628K, 11% free 10951K/12295K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 609K, 12% free 11208K/12615K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 667K, 10% free 11721K/12935K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 639K, 10% free 12237K/13575K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 645K, 9% free 12998K/14215K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 974K, 11% free 13516K/15175K, paused 7ms, total 7ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 652K, 8% free 14279K/15495K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 949K, 10% free 14835K/16455K, paused 5ms, total 5ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 690K, 8% free 15571K/16775K, paused 7ms, total 12ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 845K, 10% free 16115K/17735K, paused 13ms, total 13ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 633K, 7% free 16838K/18055K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 589K, 8% free 17639K/19015K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 876K, 8% free 18119K/19655K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 586K, 7% free 18919K/20295K, paused 2ms, total 2ms
+D/AndroidRuntime( 2001): 
+D/AndroidRuntime( 2001): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2001): CheckJNI is ON
+D/dalvikvm( 2001): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2001): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2001): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2001): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2001): Calling main entry com.android.commands.input.Input
+I/Input   ( 2001): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=45971, downTime=45971, deviceId=-1, source=0x101 }
+I/Input   ( 2001): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=45971, downTime=45971, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 2001): Shutting down VM
+D/dalvikvm( 2001): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 1ms
+D/AndroidRuntime( 2013): 
+D/AndroidRuntime( 2013): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2013): CheckJNI is ON
+D/dalvikvm( 2013): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2013): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2013): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2013): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2013): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2013): Shutting down VM
+I/AndroidRuntime( 2013): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2013): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2013
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2032): 
+D/AndroidRuntime( 2032): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2032): CheckJNI is ON
+D/dalvikvm( 2032): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2032): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2032): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2032): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2032): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2032): Shutting down VM
+I/AndroidRuntime( 2032): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2032
+D/dalvikvm( 2032): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/        ( 1137): HostConnection::get() New Host Connection established 0xb8668a50, tid 1985
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2048): 
+D/AndroidRuntime( 2048): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2048): CheckJNI is ON
+D/dalvikvm( 2048): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2048): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2048): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2048): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2048): Calling main entry com.android.commands.input.Input
+I/Input   ( 2048): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=68973, downTime=68973, deviceId=-1, source=0x101 }
+I/Input   ( 2048): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=68973, downTime=68973, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2048): Shutting down VM
+D/dalvikvm( 2048): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 0ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_CONCURRENT freed 1817K, 10% free 19025K/20999K, paused 0ms+0ms, total 7ms
+D/AndroidRuntime( 2060): 
+D/AndroidRuntime( 2060): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2060): CheckJNI is ON
+D/dalvikvm( 2060): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2060): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2060): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2060): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2060): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2060): Shutting down VM
+D/dalvikvm( 2060): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2060
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1366): GC_CONCURRENT freed 381K, 49% free 8333K/16135K, paused 1ms+1ms, total 11ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2076): 
+D/AndroidRuntime( 2076): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2076): CheckJNI is ON
+D/dalvikvm( 2076): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2076): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2076): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2076): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2076): Calling main entry com.android.commands.input.Input
+I/Input   ( 2076): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=79576, downTime=79576, deviceId=-1, source=0x101 }
+I/Input   ( 2076): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=79576, downTime=79576, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2076): Shutting down VM
+D/dalvikvm( 2076): GC_CONCURRENT freed 98K, 79% free 439K/2048K, paused 0ms+0ms, total 0ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2089): 
+D/AndroidRuntime( 2089): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2089): CheckJNI is ON
+D/dalvikvm( 2089): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2089): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2089): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2089): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2089): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2089): Shutting down VM
+I/AndroidRuntime( 2089): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2089): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2089
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 594K, 4% free 20382K/21127K, paused 0ms+1ms, total 7ms
+D/AndroidRuntime( 2105): 
+D/AndroidRuntime( 2105): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2105): CheckJNI is ON
+D/dalvikvm( 2105): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2105): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2105): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2105): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2105): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2105): Shutting down VM
+D/dalvikvm( 2105): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2105
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+E/ThrottleService( 1366): problem during onPollAlarm: java.lang.IllegalStateException: problem parsing stats: java.io.FileNotFoundException: /proc/net/xt_qtaguid/iface_stat_all: open failed: ENOENT (No such file or directory)
+E/ThrottleService( 1366): Error reading data file
+D/AndroidRuntime( 2121): 
+D/AndroidRuntime( 2121): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2121): CheckJNI is ON
+D/dalvikvm( 2121): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2121): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2121): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2121): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2121): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2121): Shutting down VM
+D/dalvikvm( 2121): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/AndroidRuntime( 2121): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2121
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2137): 
+D/AndroidRuntime( 2137): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2137): CheckJNI is ON
+D/dalvikvm( 2137): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2137): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2137): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2137): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2137): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2137): Shutting down VM
+I/AndroidRuntime( 2137): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2137): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2137
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2153): 
+D/AndroidRuntime( 2153): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2153): CheckJNI is ON
+D/dalvikvm( 2153): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2153): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2153): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2153): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2153): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2153): Shutting down VM
+I/AndroidRuntime( 2153): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2153): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2153
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_CONCURRENT freed 2090K, 10% free 20250K/22471K, paused 10ms+2ms, total 20ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2169): 
+D/AndroidRuntime( 2169): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2169): CheckJNI is ON
+D/dalvikvm( 2169): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2169): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2169): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2169): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2169): Calling main entry com.android.commands.input.Input
+I/Input   ( 2169): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=123623, downTime=123623, deviceId=-1, source=0x101 }
+I/Input   ( 2169): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=123623, downTime=123623, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2169): Shutting down VM
+D/dalvikvm( 2169): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 1ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2181): 
+D/AndroidRuntime( 2181): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2181): CheckJNI is ON
+D/dalvikvm( 2181): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2181): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2181): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2181): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2181): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2181): Shutting down VM
+I/AndroidRuntime( 2181): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2181): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2181
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2197): 
+D/AndroidRuntime( 2197): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2197): CheckJNI is ON
+D/dalvikvm( 2197): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2197): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2197): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2197): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2197): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2197): Shutting down VM
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2197
+D/dalvikvm( 2197): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/AndroidRuntime( 2197): NOTE: attach of thread 'Binder_3' failed
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2209): 
+D/AndroidRuntime( 2209): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2209): CheckJNI is ON
+D/dalvikvm( 2209): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2209): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2209): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2209): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2209): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2209): Shutting down VM
+I/AndroidRuntime( 2209): NOTE: attach of thread 'Binder_1' failed
+D/dalvikvm( 2209): GC_CONCURRENT freed 96K, 77% free 476K/2048K, paused 1ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2209
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1502): GC_CONCURRENT freed 397K, 8% free 6560K/7111K, paused 0ms+0ms, total 2ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2223): 
+D/AndroidRuntime( 2223): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2223): CheckJNI is ON
+D/dalvikvm( 2223): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2223): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2223): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2223): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2223): Calling main entry com.android.commands.input.Input
+I/Input   ( 2223): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=146774, downTime=146774, deviceId=-1, source=0x101 }
+I/Input   ( 2223): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=146774, downTime=146774, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2223): Shutting down VM
+D/dalvikvm( 2223): GC_CONCURRENT freed 98K, 79% free 439K/2048K, paused 0ms+0ms, total 1ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2235): 
+D/AndroidRuntime( 2235): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2235): CheckJNI is ON
+D/dalvikvm( 2235): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2235): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2235): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2235): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2235): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2235): Shutting down VM
+I/AndroidRuntime( 2235): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2235): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2235
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1366): GC_CONCURRENT freed 530K, 49% free 8280K/16135K, paused 10ms+0ms, total 15ms
+I/ActivityManager( 1366): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity u=0} from pid 1970
+W/WindowManager( 1366): Failure taking screenshot for (302x176) to layer 21010
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+D/gralloc_ranchu( 1137): gralloc_alloc: Creating ashmem region of size 57344
+D/gralloc_ranchu( 1137): gralloc_alloc: Creating ashmem region of size 704512
+D/        ( 1366): HostConnection::get() New Host Connection established 0xb926fb00, tid 1379
+I/ActivityManager( 1366): Displayed android/com.android.internal.app.ResolverActivity: +79ms
+D/gralloc_ranchu( 1137): gralloc_alloc: Creating ashmem region of size 704512
+D/gralloc_ranchu( 1137): gralloc_alloc: Creating ashmem region of size 704512
+D/AndroidRuntime( 2251): 
+D/AndroidRuntime( 2251): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2251): CheckJNI is ON
+D/dalvikvm( 2251): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2251): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2251): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2251): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2251): Calling main entry com.android.commands.input.Input
+I/Input   ( 2251): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=156339, downTime=156339, deviceId=-1, source=0x101 }
+I/Input   ( 2251): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=156339, downTime=156339, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 2251): Shutting down VM
+D/dalvikvm( 2251): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 0ms
+I/AndroidRuntime( 2251): NOTE: attach of thread 'Binder_3' failed
+W/WindowManager( 1366): Failure taking screenshot for (302x176) to layer 21015
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+W/InputMethodManagerService( 1366): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@96dee768 attribute=null
+W/ActivityManager( 1366): Duplicate finish request for ActivityRecord{96de59b8 android/com.android.internal.app.ResolverActivity}
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2263): 
+D/AndroidRuntime( 2263): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2263): CheckJNI is ON
+D/dalvikvm( 2263): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2263): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2263): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2263): Added shared lib libnativehelper.so 0x0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2263): Calling main entry com.android.commands.input.Input
+I/Input   ( 2263): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=158587, downTime=158587, deviceId=-1, source=0x101 }
+I/Input   ( 2263): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=158587, downTime=158587, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 2263): Shutting down VM
+I/AndroidRuntime( 2263): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2263): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 0ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/PackageManager( 1366): generateServicesMap(android.accounts.AccountAuthenticator): 2 services unchanged
+I/Launcher( 1733): setLoadOnResume
+I/AccountTypeManager( 1721): Loaded meta-data for 1 account types, 0 accounts in 0ms(wall) 0ms(cpu)
+I/InputReader( 1366): Reconfiguring input devices.  changes=0x00000010
+D/PackageManager( 1366): generateServicesMap(android.content.SyncAdapter): 4 services unchanged
+D/dalvikvm( 1366): GC_CONCURRENT freed 322K, 48% free 8475K/16135K, paused 10ms+1ms, total 15ms
+D/AndroidRuntime( 2275): 
+D/AndroidRuntime( 2275): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2275): CheckJNI is ON
+D/dalvikvm( 2275): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2275): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2275): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2275): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2275): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2275): Shutting down VM
+I/AndroidRuntime( 2275): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2275
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+D/dalvikvm( 2275): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+1ms, total 1ms
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2291): 
+D/AndroidRuntime( 2291): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2291): CheckJNI is ON
+D/dalvikvm( 2291): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2291): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2291): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2291): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2291): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2291): Shutting down VM
+D/dalvikvm( 2291): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2291
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+D/dalvikvm( 1366): WAIT_FOR_CONCURRENT_GC blocked 0ms
+D/dalvikvm( 1366): GC_EXPLICIT freed 287K, 49% free 8291K/16135K, paused 0ms+0ms, total 5ms
+D/dalvikvm( 1970): GC_CONCURRENT freed 2086K, 11% free 20108K/22471K, paused 0ms+1ms, total 9ms
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2307): 
+D/AndroidRuntime( 2307): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2307): CheckJNI is ON
+D/dalvikvm( 2307): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2307): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2307): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2307): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2307): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2307): Shutting down VM
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2307
+D/dalvikvm( 2307): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2323): 
+D/AndroidRuntime( 2323): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2323): CheckJNI is ON
+D/dalvikvm( 2323): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2323): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2323): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2323): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2323): Calling main entry com.android.commands.input.Input
+I/Input   ( 2323): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=185843, downTime=185843, deviceId=-1, source=0x101 }
+I/Input   ( 2323): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=185843, downTime=185843, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2323): Shutting down VM
+I/AndroidRuntime( 2323): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2323): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 1ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2335): 
+D/AndroidRuntime( 2335): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2335): CheckJNI is ON
+D/dalvikvm( 2335): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2335): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2335): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2335): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2335): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2335): Shutting down VM
+D/dalvikvm( 2335): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2335
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 1918K, 11% free 20158K/22471K, paused 10ms+1ms, total 16ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1161K, 13% free 19724K/22471K, paused 4ms, total 4ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 19.603MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 7K, 13% free 19973K/22791K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 6K, 13% free 19970K/22791K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 19.842MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 13% free 20226K/23111K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 312K, 14% free 19975K/23111K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 4K, 13% free 20227K/23111K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 20.093MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 13% free 20483K/23431K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 313K, 14% free 20228K/23431K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 5K, 13% free 20483K/23431K, paused 3ms, total 3ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 20.343MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 13% free 20739K/23751K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 317K, 13% free 20740K/23751K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 313K, 13% free 20740K/23751K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 9K, 12% free 20996K/23751K, paused 3ms, total 3ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 20.844MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 21252K/24071K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 307K, 13% free 20998K/24071K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 3K, 12% free 21251K/24071K, paused 1ms, total 1ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 21.094MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 21507K/24391K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 320K, 13% free 21256K/24391K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 4K, 12% free 21508K/24391K, paused 3ms, total 3ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 21.344MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 21764K/24711K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 316K, 13% free 21508K/24711K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 4K, 12% free 21760K/24711K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 21.590MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 13% free 22016K/25031K, paused 2ms, total 2ms
+D/AndroidRuntime( 2356): 
+D/AndroidRuntime( 2356): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2356): CheckJNI is ON
+D/dalvikvm( 2356): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2356): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2356): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2356): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2356): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2356): Shutting down VM
+I/AndroidRuntime( 2356): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2356): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2356
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1411K, 16% free 21198K/25031K, paused 4ms, total 4ms
+D/AndroidRuntime( 2373): 
+D/AndroidRuntime( 2373): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2373): CheckJNI is ON
+D/dalvikvm( 2373): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2373): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2373): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2373): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2373): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2373): Shutting down VM
+D/dalvikvm( 2373): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2373
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1145K, 16% free 21197K/25031K, paused 3ms, total 3ms
+D/AndroidRuntime( 2386): 
+D/AndroidRuntime( 2386): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2386): CheckJNI is ON
+D/dalvikvm( 2386): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2386): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2386): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2386): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2386): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2386): Shutting down VM
+D/dalvikvm( 2386): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2386
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1086K, 16% free 21196K/25031K, paused 4ms, total 4ms
+D/AndroidRuntime( 2403): 
+D/AndroidRuntime( 2403): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2403): CheckJNI is ON
+D/dalvikvm( 2403): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2403): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2403): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2403): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2403): Calling main entry com.android.commands.am.Am
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2403
+D/AndroidRuntime( 2403): Shutting down VM
+D/dalvikvm( 2403): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 1ms+0ms, total 1ms
+I/AndroidRuntime( 2403): NOTE: attach of thread 'Binder_3' failed
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1160K, 16% free 21194K/25031K, paused 3ms, total 3ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 21.774MB for 1033612-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 54K, 15% free 22149K/26055K, paused 13ms, total 13ms
+D/AndroidRuntime( 2420): 
+D/AndroidRuntime( 2420): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2420): CheckJNI is ON
+D/dalvikvm( 2420): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2420): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2420): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2420): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2420): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2420): Shutting down VM
+I/AndroidRuntime( 2420): NOTE: attach of thread 'Binder_1' failed
+D/dalvikvm( 2420): GC_CONCURRENT freed 96K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2420
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1491K, 19% free 21193K/26055K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 469K, 14% free 22580K/26055K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 327K, 13% free 22833K/26055K, paused 7ms, total 7ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 4K, 12% free 23085K/26055K, paused 8ms, total 8ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 22.884MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 23341K/26375K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 310K, 13% free 23086K/26375K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1K, 12% free 23341K/26375K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 23.134MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 23597K/26695K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 322K, 12% free 23594K/26695K, paused 3ms, total 3ms
+D/AndroidRuntime( 2439): 
+D/AndroidRuntime( 2439): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2439): CheckJNI is ON
+D/dalvikvm( 2439): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2439): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2439): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2439): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2439): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2439): Shutting down VM
+I/AndroidRuntime( 2439): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2439): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2439
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1941K, 16% free 22475K/26695K, paused 4ms, total 4ms
+D/AndroidRuntime( 2456): 
+D/AndroidRuntime( 2456): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2456): CheckJNI is ON
+D/dalvikvm( 2456): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2456): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2456): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2456): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2456): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2456): Shutting down VM
+I/AndroidRuntime( 2456): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2456): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2456
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1366): GC_CONCURRENT freed 463K, 49% free 8293K/16135K, paused 11ms+0ms, total 15ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1709K, 16% free 22475K/26695K, paused 4ms, total 4ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 23.279MB for 1300648-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 55K, 16% free 23689K/27975K, paused 3ms, total 3ms
+D/AndroidRuntime( 2473): 
+D/AndroidRuntime( 2473): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2473): CheckJNI is ON
+D/dalvikvm( 2473): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2473): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2473): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2473): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2473): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2473): Shutting down VM
+D/dalvikvm( 2473): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/AndroidRuntime( 2473): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2473
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2489): 
+D/AndroidRuntime( 2489): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2489): CheckJNI is ON
+D/dalvikvm( 2489): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2489): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2489): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2489): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2489): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2489): Shutting down VM
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2489
+I/AndroidRuntime( 2489): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2489): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2505): 
+D/AndroidRuntime( 2505): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2505): CheckJNI is ON
+D/dalvikvm( 2505): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2505): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2505): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2505): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2505): Calling main entry com.android.commands.input.Input
+I/Input   ( 2505): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=263480, downTime=263480, deviceId=-1, source=0x101 }
+I/Input   ( 2505): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=263480, downTime=263480, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 2505): Shutting down VM
+I/AndroidRuntime( 2505): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2505): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 1ms
+D/AndroidRuntime( 2517): 
+D/AndroidRuntime( 2517): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2517): CheckJNI is ON
+D/dalvikvm( 2517): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2517): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2517): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2517): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2517): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2517): Shutting down VM
+D/dalvikvm( 2517): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+1ms, total 1ms
+I/AndroidRuntime( 2517): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2517
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 881K, 12% free 24811K/27975K, paused 1ms+1ms, total 6ms
+D/AndroidRuntime( 2533): 
+D/AndroidRuntime( 2533): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2533): CheckJNI is ON
+D/dalvikvm( 2533): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2533): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2533): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2533): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2533): Calling main entry com.android.commands.input.Input
+I/Input   ( 2533): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=274051, downTime=274051, deviceId=-1, source=0x101 }
+I/Input   ( 2533): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=274051, downTime=274051, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 2533): Shutting down VM
+I/AndroidRuntime( 2533): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2533): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 1ms
+D/AndroidRuntime( 2545): 
+D/AndroidRuntime( 2545): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2545): CheckJNI is ON
+D/dalvikvm( 2545): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2545): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2545): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2545): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2545): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2545): Shutting down VM
+D/dalvikvm( 2545): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2545
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 2205K, 18% free 23195K/27975K, paused 3ms, total 3ms
+D/AndroidRuntime( 2562): 
+D/AndroidRuntime( 2562): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2562): CheckJNI is ON
+D/dalvikvm( 2562): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2562): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2562): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2562): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2562): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2562): Shutting down VM
+D/dalvikvm( 2562): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2562
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 1388K, 15% free 23796K/27975K, paused 0ms+1ms, total 6ms
+D/AndroidRuntime( 2579): 
+D/AndroidRuntime( 2579): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2579): CheckJNI is ON
+D/dalvikvm( 2579): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2579): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2579): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2579): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2579): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2579): Shutting down VM
+D/dalvikvm( 2579): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/AndroidRuntime( 2579): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2579
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2596): 
+D/AndroidRuntime( 2596): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2596): CheckJNI is ON
+D/dalvikvm( 2596): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2596): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2596): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2596): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2596): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2596): Shutting down VM
+I/AndroidRuntime( 2596): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2596): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2596
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 2212K, 17% free 23231K/27975K, paused 4ms, total 4ms
+D/AndroidRuntime( 2609): 
+D/AndroidRuntime( 2609): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2609): CheckJNI is ON
+D/dalvikvm( 2609): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2609): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2609): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2609): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2609): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2609): Shutting down VM
+D/dalvikvm( 2609): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/AndroidRuntime( 2609): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2609
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2622): 
+D/AndroidRuntime( 2622): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2622): CheckJNI is ON
+D/dalvikvm( 2622): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2622): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2622): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2622): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2622): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2622): Shutting down VM
+D/dalvikvm( 2622): GC_CONCURRENT freed 95K, 79% free 444K/2048K, paused 0ms+0ms, total 0ms
+I/WindowManager( 1366): Using new display size: 1024x600
+D/AndroidRuntime( 2634): 
+D/AndroidRuntime( 2634): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2634): CheckJNI is ON
+D/dalvikvm( 2634): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2634): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2634): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2634): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2634): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2634): Shutting down VM
+I/AndroidRuntime( 2634): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2634): GC_CONCURRENT freed 99K, 78% free 451K/2048K, paused 0ms+0ms, total 0ms
+D/AndroidRuntime( 2646): 
+D/AndroidRuntime( 2646): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2646): CheckJNI is ON
+D/dalvikvm( 2646): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2646): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2646): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2646): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2646): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2646): Shutting down VM
+D/dalvikvm( 2646): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2646
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 1330K, 15% free 23821K/27975K, paused 10ms+1ms, total 16ms
+D/AndroidRuntime( 2662): 
+D/AndroidRuntime( 2662): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2662): CheckJNI is ON
+D/dalvikvm( 2662): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2662): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2662): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2662): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2662): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2662): Shutting down VM
+I/AndroidRuntime( 2662): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2662): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2662
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1366): GC_CONCURRENT freed 473K, 49% free 8286K/16135K, paused 1ms+0ms, total 4ms
+D/AndroidRuntime( 2678): 
+D/AndroidRuntime( 2678): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2678): CheckJNI is ON
+D/dalvikvm( 2678): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2678): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2678): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2678): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2678): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2678): Shutting down VM
+I/AndroidRuntime( 2678): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2678): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2678
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2690): 
+D/AndroidRuntime( 2690): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2690): CheckJNI is ON
+D/dalvikvm( 2690): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2690): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2690): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2690): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2690): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2690): Shutting down VM
+D/dalvikvm( 2690): GC_CONCURRENT freed 94K, 79% free 444K/2048K, paused 0ms+0ms, total 1ms
+I/AndroidRuntime( 2690): NOTE: attach of thread 'Binder_3' failed
+I/WindowManager( 1366): Using new display size: 1024x600
+D/AndroidRuntime( 2702): 
+D/AndroidRuntime( 2702): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2702): CheckJNI is ON
+D/dalvikvm( 2702): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2702): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2702): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2702): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2702): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2702): Shutting down VM
+D/dalvikvm( 2702): GC_CONCURRENT freed 99K, 78% free 451K/2048K, paused 0ms+0ms, total 0ms
+I/AndroidRuntime( 2702): NOTE: attach of thread 'Binder_1' failed
+D/AndroidRuntime( 2712): 
+D/AndroidRuntime( 2712): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2712): CheckJNI is ON
+D/dalvikvm( 2712): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2712): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2712): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2712): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2712): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2712): Shutting down VM
+I/AndroidRuntime( 2712): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2712): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2712
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 1861K, 15% free 24005K/27975K, paused 0ms+0ms, total 5ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 5ms
+D/dalvikvm( 1970): GC_CONCURRENT freed 1350K, 12% free 24703K/27975K, paused 1ms+1ms, total 4ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm( 1970): GC_CONCURRENT freed 1874K, 12% free 24871K/27975K, paused 10ms+0ms, total 15ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm( 1970): GC_CONCURRENT freed 2052K, 12% free 24865K/27975K, paused 0ms+1ms, total 3ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm( 1970): GC_CONCURRENT freed 2015K, 12% free 24890K/27975K, paused 0ms+0ms, total 4ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/AndroidRuntime( 2724): 
+D/AndroidRuntime( 2724): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2724): CheckJNI is ON
+D/dalvikvm( 2724): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2724): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2724): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2724): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2724): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2724): Shutting down VM
+I/AndroidRuntime( 2724): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2724): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2724
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 2144K, 12% free 24794K/27975K, paused 10ms+2ms, total 15ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1995K, 17% free 23334K/27975K, paused 4ms, total 4ms
+D/AndroidRuntime( 2741): 
+D/AndroidRuntime( 2741): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2741): CheckJNI is ON
+D/dalvikvm( 2741): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2741): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2741): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2741): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2741): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2741): Shutting down VM
+D/dalvikvm( 2741): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2741
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2757): 
+D/AndroidRuntime( 2757): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2757): CheckJNI is ON
+D/dalvikvm( 2757): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2757): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2757): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2757): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2757): Calling main entry com.android.commands.am.Am
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2757
+D/AndroidRuntime( 2757): Shutting down VM
+D/dalvikvm( 2757): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 871K, 13% free 24505K/27975K, paused 0ms+1ms, total 6ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2773): 
+D/AndroidRuntime( 2773): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2773): CheckJNI is ON
+D/dalvikvm( 2773): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2773): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2773): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2773): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2773): Calling main entry com.android.commands.input.Input
+I/Input   ( 2773): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=371893, downTime=371893, deviceId=-1, source=0x101 }
+I/Input   ( 2773): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=371893, downTime=371893, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2773): Shutting down VM
+D/dalvikvm( 2773): GC_CONCURRENT freed 98K, 79% free 439K/2048K, paused 0ms+0ms, total 1ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2785): 
+D/AndroidRuntime( 2785): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2785): CheckJNI is ON
+D/dalvikvm( 2785): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2785): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2785): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2785): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2785): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2785): Shutting down VM
+I/AndroidRuntime( 2785): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2785): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2785
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 2262K, 14% free 24199K/27975K, paused 11ms+1ms, total 19ms
+D/AndroidRuntime( 2802): 
+D/AndroidRuntime( 2802): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2802): CheckJNI is ON
+D/dalvikvm( 2802): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2802): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2802): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2802): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2802): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2802): Shutting down VM
+I/AndroidRuntime( 2802): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2802): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2802
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2818): 
+D/AndroidRuntime( 2818): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2818): CheckJNI is ON
+D/dalvikvm( 2818): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2818): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2818): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2818): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2818): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2818): Shutting down VM
+I/AndroidRuntime( 2818): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2818
+D/dalvikvm( 2818): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2834): 
+D/AndroidRuntime( 2834): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2834): CheckJNI is ON
+D/dalvikvm( 2834): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2834): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2834): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2834): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2834): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2834): Shutting down VM
+D/dalvikvm( 2834): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/AndroidRuntime( 2834): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2834
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 2477K, 18% free 23207K/27975K, paused 5ms, total 5ms
+D/AndroidRuntime( 2847): 
+D/AndroidRuntime( 2847): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2847): CheckJNI is ON
+D/dalvikvm( 2847): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2847): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2847): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2847): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2847): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2847): Shutting down VM
+I/AndroidRuntime( 2847): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2847): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+1ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2847
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1366): GC_CONCURRENT freed 460K, 49% free 8291K/16135K, paused 1ms+0ms, total 5ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1622K, 17% free 23391K/27975K, paused 4ms, total 4ms
+D/AndroidRuntime( 2864): 
+D/AndroidRuntime( 2864): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2864): CheckJNI is ON
+D/dalvikvm( 2864): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2864): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2864): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2864): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2864): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2864): Shutting down VM
+D/dalvikvm( 2864): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2864
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2880): 
+D/AndroidRuntime( 2880): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2880): CheckJNI is ON
+D/dalvikvm( 2880): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2880): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2880): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2880): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2880): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2880): Shutting down VM
+D/dalvikvm( 2880): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2880
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 1902K, 16% free 23536K/27975K, paused 0ms+0ms, total 6ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/AndroidRuntime( 2897): 
+D/AndroidRuntime( 2897): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2897): CheckJNI is ON
+D/dalvikvm( 2897): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2897): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2897): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2897): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2897): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2897): Shutting down VM
+D/dalvikvm( 2897): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2897
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2913): 
+D/AndroidRuntime( 2913): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2913): CheckJNI is ON
+D/dalvikvm( 2913): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2913): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2913): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2913): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2913): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2913): Shutting down VM
+D/dalvikvm( 2913): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2913
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 2184K, 17% free 23279K/27975K, paused 0ms+1ms, total 5ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/AndroidRuntime( 2926): 
+D/AndroidRuntime( 2926): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2926): CheckJNI is ON
+D/dalvikvm( 2926): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2926): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2926): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2926): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2926): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2926): Shutting down VM
+D/dalvikvm( 2926): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2926
+I/LocationManagerService( 1366): remove gps (pid 1970), disabled
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+I/LocationManagerService( 1366): request gps (pid 1970) 2000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 1643K, 16% free 23555K/27975K, paused 10ms+2ms, total 18ms
+D/AndroidRuntime( 2943): 
+D/AndroidRuntime( 2943): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2943): CheckJNI is ON
+D/dalvikvm( 2943): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2943): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2943): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2943): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2943): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2943): Shutting down VM
+I/AndroidRuntime( 2943): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2943): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2943
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/AndroidRuntime( 2955): 
+D/AndroidRuntime( 2955): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2955): CheckJNI is ON
+D/dalvikvm( 2955): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2955): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2955): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2955): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2955): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2955): Shutting down VM
+D/dalvikvm( 2955): GC_CONCURRENT freed 96K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2955
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2969): 
+D/AndroidRuntime( 2969): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2969): CheckJNI is ON
+D/dalvikvm( 2969): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2969): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2969): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2969): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2969): Calling main entry com.android.commands.input.Input
+I/Input   ( 2969): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=465940, downTime=465940, deviceId=-1, source=0x101 }
+I/Input   ( 2969): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=465940, downTime=465940, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2969): Shutting down VM
+I/AndroidRuntime( 2969): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2969): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 0ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 2981): 
+D/AndroidRuntime( 2981): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2981): CheckJNI is ON
+D/dalvikvm( 2981): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2981): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2981): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2981): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2981): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2981): Shutting down VM
+I/AndroidRuntime( 2981): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2981): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2981
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 1698K, 16% free 23777K/27975K, paused 0ms+1ms, total 8ms
+D/AndroidRuntime( 2997): 
+D/AndroidRuntime( 2997): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 2997): CheckJNI is ON
+D/dalvikvm( 2997): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 2997): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 2997): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 2997): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 2997): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 2997): Shutting down VM
+I/AndroidRuntime( 2997): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 2997): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 2997
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3014): 
+D/AndroidRuntime( 3014): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3014): CheckJNI is ON
+D/dalvikvm( 3014): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3014): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3014): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3014): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3014): Calling main entry com.android.commands.input.Input
+I/Input   ( 3014): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=486875, downTime=486875, deviceId=-1, source=0x101 }
+I/Input   ( 3014): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=486875, downTime=486875, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3014): Shutting down VM
+I/AndroidRuntime( 3014): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 3014): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 0ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3026): 
+D/AndroidRuntime( 3026): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3026): CheckJNI is ON
+D/dalvikvm( 3026): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3026): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3026): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3026): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3026): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3026): Shutting down VM
+D/dalvikvm( 3026): GC_CONCURRENT freed 96K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/AndroidRuntime( 3026): NOTE: attach of thread 'Binder_1' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3026
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1366): GC_CONCURRENT freed 458K, 49% free 8298K/16135K, paused 1ms+0ms, total 5ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 2482K, 18% free 23050K/27975K, paused 5ms, total 5ms
+D/AndroidRuntime( 3041): 
+D/AndroidRuntime( 3041): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3041): CheckJNI is ON
+D/dalvikvm( 3041): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3041): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3041): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3041): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3041): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3041): Shutting down VM
+D/dalvikvm( 3041): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 1ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3041
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/dalvikvm( 1970): GC_CONCURRENT freed 1382K, 16% free 23588K/27975K, paused 11ms+1ms, total 16ms
+D/AndroidRuntime( 3054): 
+D/AndroidRuntime( 3054): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3054): CheckJNI is ON
+D/dalvikvm( 3054): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3054): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3054): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3054): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3054): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3054): Shutting down VM
+I/AndroidRuntime( 3054): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3054
+D/dalvikvm( 3054): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 2ms+0ms, total 2ms
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1482): GC_CONCURRENT freed 198K, 5% free 6397K/6727K, paused 10ms+10ms, total 22ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1482): GC_CONCURRENT freed 163K, 5% free 6698K/6983K, paused 11ms+0ms, total 12ms
+D/gralloc_ranchu( 1137): gralloc_alloc: Creating ashmem region of size 2236416
+D/        ( 1482): HostConnection::get() New Host Connection established 0xb9007dc0, tid 1482
+D/dalvikvm( 1482): GC_FOR_ALLOC freed 85K, 5% free 6713K/7047K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1482): Grow heap (frag case) to 7.721MB for 1130508-byte allocation
+D/dalvikvm( 1482): GC_FOR_ALLOC freed 1K, 5% free 7816K/8199K, paused 2ms, total 2ms
+D/dalvikvm( 1482): GC_CONCURRENT freed 0K, 5% free 7816K/8199K, paused 11ms+0ms, total 12ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3071): 
+D/AndroidRuntime( 3071): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3071): CheckJNI is ON
+D/dalvikvm( 3071): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3071): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3071): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3071): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3071): Calling main entry com.android.commands.input.Input
+I/Input   ( 3071): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=512110, downTime=512110, deviceId=-1, source=0x101 }
+I/Input   ( 3071): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=512110, downTime=512110, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 3071): Shutting down VM
+D/dalvikvm( 3071): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 0ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3083): 
+D/AndroidRuntime( 3083): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3083): CheckJNI is ON
+D/dalvikvm( 3083): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3083): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3083): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3083): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3083): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3083): Shutting down VM
+I/AndroidRuntime( 3083): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 3083): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3083
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3099): 
+D/AndroidRuntime( 3099): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3099): CheckJNI is ON
+D/dalvikvm( 3099): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3099): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3099): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3099): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3099): Calling main entry com.android.commands.input.Input
+I/Input   ( 3099): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=520742, downTime=520742, deviceId=-1, source=0x101 }
+I/Input   ( 3099): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=520742, downTime=520742, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3099): Shutting down VM
+D/dalvikvm( 3099): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+0ms, total 0ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3111): 
+D/AndroidRuntime( 3111): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3111): CheckJNI is ON
+D/dalvikvm( 3111): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3111): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3111): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3111): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3111): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3111): Shutting down VM
+I/AndroidRuntime( 3111): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 3111): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3111
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3127): 
+D/AndroidRuntime( 3127): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3127): CheckJNI is ON
+D/dalvikvm( 3127): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3127): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3127): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3127): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3127): Calling main entry com.android.commands.input.Input
+I/Input   ( 3127): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=529325, downTime=529325, deviceId=-1, source=0x101 }
+I/Input   ( 3127): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=529325, downTime=529325, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3127): Shutting down VM
+D/dalvikvm( 3127): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+1ms, total 1ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3139): 
+D/AndroidRuntime( 3139): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3139): CheckJNI is ON
+D/dalvikvm( 3139): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3139): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3139): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3139): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3139): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3139): Shutting down VM
+I/AndroidRuntime( 3139): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 3139): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3139
+D/dalvikvm( 1366): WAIT_FOR_CONCURRENT_GC blocked 0ms
+D/dalvikvm( 1366): GC_EXPLICIT freed 298K, 49% free 8308K/16135K, paused 1ms+1ms, total 5ms
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3152): 
+D/AndroidRuntime( 3152): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3152): CheckJNI is ON
+D/dalvikvm( 3152): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3152): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3152): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3152): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3152): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3152): Shutting down VM
+D/dalvikvm( 3152): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3152
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_CONCURRENT freed 1762K, 15% free 23867K/27975K, paused 10ms+1ms, total 16ms
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3168): 
+D/AndroidRuntime( 3168): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3168): CheckJNI is ON
+D/dalvikvm( 3168): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3168): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3168): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3168): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3168): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3168): Shutting down VM
+D/dalvikvm( 3168): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3168
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/gralloc_ranchu( 1137): gralloc_alloc: Creating ashmem region of size 2236416
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/gralloc_ranchu( 1137): gralloc_alloc: Creating ashmem region of size 2236416
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3185): 
+D/AndroidRuntime( 3185): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3185): CheckJNI is ON
+D/dalvikvm( 3185): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3185): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3185): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3185): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3185): Calling main entry com.android.commands.input.Input
+I/Input   ( 3185): InjectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=553526, downTime=553526, deviceId=-1, source=0x101 }
+D/dalvikvm( 1970): WAIT_FOR_CONCURRENT_GC blocked 0ms
+D/dalvikvm( 1970): GC_EXPLICIT freed 730K, 16% free 23749K/27975K, paused 0ms+1ms, total 5ms
+I/Input   ( 3185): InjectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=553526, downTime=553526, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 3185): Shutting down VM
+I/AndroidRuntime( 3185): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 3185): GC_CONCURRENT freed 98K, 79% free 440K/2048K, paused 0ms+1ms, total 1ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3197): 
+D/AndroidRuntime( 3197): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3197): CheckJNI is ON
+D/dalvikvm( 3197): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3197): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3197): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3197): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3197): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3197): Shutting down VM
+I/AndroidRuntime( 3197): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 3197): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3197
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3209): 
+D/AndroidRuntime( 3209): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3209): CheckJNI is ON
+D/dalvikvm( 3209): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3209): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3209): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3209): Added shared lib libnativehelper.so 0x0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3209): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3209): Shutting down VM
+I/AndroidRuntime( 3209): NOTE: attach of thread 'Binder_3' failed
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3209
+D/dalvikvm( 3209): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1576K, 15% free 23879K/27975K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 82K, 14% free 24310K/27975K, paused 12ms, total 12ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 24.083MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 14% free 24566K/28295K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 24K, 14% free 24542K/28295K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 24.309MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 14% free 24798K/28615K, paused 2ms, total 2ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 685K, 15% free 24593K/28615K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 312K, 14% free 24800K/28615K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 360K, 14% free 24827K/28615K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 38K, 13% free 25105K/28615K, paused 13ms, total 13ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 24.859MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 13% free 25361K/28935K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 311K, 14% free 25085K/28935K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 30K, 13% free 25312K/28935K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 25.061MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 13% free 25568K/29255K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 341K, 14% free 25334K/29255K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 39K, 13% free 25569K/29255K, paused 3ms, total 3ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 25.312MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 13% free 25825K/29575K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 324K, 14% free 25590K/29575K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 22K, 13% free 25824K/29575K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 25.561MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 13% free 26080K/29895K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 366K, 13% free 26080K/29895K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 341K, 13% free 26107K/29895K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 26K, 12% free 26336K/29895K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 26.061MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 26592K/30215K, paused 3ms, total 3ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 341K, 13% free 26363K/30215K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 27K, 12% free 26592K/30215K, paused 3ms, total 3ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 26.311MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 13% free 26848K/30535K, paused 2ms, total 2ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 339K, 13% free 26610K/30535K, paused 6ms, total 6ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 21K, 13% free 26845K/30535K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 26.558MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed <1K, 13% free 27101K/30855K, paused 2ms, total 2ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3230): 
+D/AndroidRuntime( 3230): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3230): CheckJNI is ON
+D/dalvikvm( 3230): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3230): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3230): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3230): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3230): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3230): Shutting down VM
+D/dalvikvm( 3230): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 0ms
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3230
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3246): 
+D/AndroidRuntime( 3246): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3246): CheckJNI is ON
+D/dalvikvm( 3246): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3246): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3246): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3246): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3246): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3246): Shutting down VM
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3246
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+D/dalvikvm( 3246): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1492K, 15% free 26301K/30855K, paused 3ms, total 3ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 299K, 13% free 27149K/30855K, paused 4ms, total 4ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 26.855MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 2K, 13% free 27403K/31175K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 45K, 12% free 27616K/31175K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 27.310MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 27872K/31495K, paused 2ms, total 2ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 632K, 14% free 27385K/31495K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 76K, 12% free 27895K/31495K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 27.583MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 28151K/31815K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 24K, 12% free 28128K/31815K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 27.811MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 256K, 13% free 28128K/32135K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 430K, 13% free 28172K/32135K, paused 4ms, total 4ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 23K, 12% free 28404K/32135K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 28.081MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 28660K/32455K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 646K, 13% free 28407K/32455K, paused 3ms, total 3ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 82K, 11% free 28916K/32455K, paused 3ms, total 3ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 28.581MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 11% free 29172K/32775K, paused 2ms, total 2ms
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 21K, 12% free 29152K/32775K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1970): Grow heap (frag case) to 28.811MB for 262156-byte allocation
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 0K, 12% free 29408K/33095K, paused 2ms, total 2ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3262): 
+D/AndroidRuntime( 3262): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3262): CheckJNI is ON
+D/dalvikvm( 3262): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3262): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3262): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3262): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3262): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 3262): Shutting down VM
+D/dalvikvm( 3262): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3262
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/dalvikvm( 1970): GC_FOR_ALLOC freed 1506K, 15% free 28308K/33095K, paused 4ms, total 4ms
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/AndroidRuntime( 3279): 
+D/AndroidRuntime( 3279): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3279): CheckJNI is ON
+D/dalvikvm( 3279): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3279): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3279): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3279): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime( 3279): Calling main entry com.android.commands.am.Am
+I/ActivityManager( 1366): START {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras) u=0} from pid 3279
+D/AndroidRuntime( 3279): Shutting down VM
+I/AndroidRuntime( 3279): NOTE: attach of thread 'Binder_3' failed
+D/dalvikvm( 3279): GC_CONCURRENT freed 97K, 77% free 476K/2048K, paused 0ms+0ms, total 1ms
+I/LocationManagerService( 1366): remove gps (pid 1970), next minTime = 2000
+I/LocationManagerService( 1366): request gps (pid 1970) 1000 1000
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
+D/EGL_emulation( 1970): eglMakeCurrent: 0xb9123210: ver 2 0
